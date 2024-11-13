@@ -15,7 +15,7 @@
     <p class="text2"> import java.util.Random;</p>
     <p class="text2"> import java.util.Scanner;</p>
 
-    <p class="text2"> public class RandomMatrix {</br>
+    <p class="text2"> public class RandomMatrix {</p>
     <p style="text-indent:40px" class="text2"> public static void main(String[] args) {</p>
     <p style="text-indent:80px" class="text2"> Scanner scanner = new Scanner(System.in);</p>
     <p style="text-indent:80px" class="text2"> Random random = new Random();</p>
@@ -40,21 +40,19 @@
 <p style="text-indent:120px" class="text2"> for (int j = 0; j < n; j++) { </p>
 <p style="text-indent:160px" class="text2"> roundedMatrix[i][j] = (int) Math.round(matrix[i][j]); </p>
 <p style="text-indent:120px" class="text2"> } </p>
-<p style="text-indent:80px"class="text2"> } </p></br>
+<p style="text-indent:80px" class="text2"> } </p></br>
 
-        System.out.println("Округленная матрица:");
-        for (int i = 0; i < n; i++) { </br>
-            for (int j = 0; j < n; j++) { </br>
-                System.out.print(roundedMatrix[i][j] + "\t"); </br>
-            } </br>
-            System.out.println(); </br>
-        } </br>
-</br>
-        scanner.close(); </br>
-    } </br>
-} </br>
-                </p>
-              
+<p style="text-indent:80px" class="text2"> System.out.println("Округленная матрица:"); </p>
+<p style="text-indent:80px" class="text2"> for (int i = 0; i < n; i++) { </p>
+<p style="text-indent:120px" class="text2"> for (int j = 0; j < n; j++) { </p>
+<p style="text-indent:160px" class="text2"> System.out.print(roundedMatrix[i][j] + "\t"); </p> 
+<p style="text-indent:120px" class="text2"> } </p>
+<p style="text-indent:120px" class="text2"> System.out.println(); </p>
+<p style="text-indent:80px" class="text2">}</p>
+    <p style="text-indent:80px" class="text2"> scanner.close();</p> 
+    <p style="text-indent:40px" class="text2"> } </p> 
+<p class="text2">} </p>
+        </p>    
               </td>
           </tr>
           <tr>
@@ -62,10 +60,7 @@
                   <p class="text2"> Скриншот результата </p>
                   <img class="img" src="https://github.com/newsadness/Task-number-1/blob/main/1.png?raw=true">
             </td>
-
-
-
-</tr>
+          </tr>
           <tr>
              <td> 
                  <a href="https://newsadness.github.io/1st-week/"> 
