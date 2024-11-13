@@ -21,13 +21,12 @@ margin-top: 50px;
 }
 
 .text2 {
-color: black;
-font-family: "Arial Black";
-font-size: 20px;
-width: 150px;
+color: #2f4f4f;
+width: auto;
 height: auto;
-margin: auto;   
-    
+text-align: justify;
+font-size: 28px;
+font-family: "Arial Black";
 }
 
 .space {
@@ -38,8 +37,8 @@ margin: auto;
 
 
 .img {
-    width: 180px;
-    height: 220px;
+    width: 800px;
+    height: 620px;
     
     
     
@@ -60,8 +59,7 @@ margin: auto;
 
 
 
-.table{
-    margin-top: 200px;
+.table {
     margin-left: 10%;
     
     

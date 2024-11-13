@@ -2,47 +2,47 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>1st week</title>
+        <title>Task number 1</title>
         <link rel="stylesheet" href="DefaultTask.css"> 
     </head>
     <body class="default">
 <div class="text"> Задача 1</div>
-        <table class="table">
-          <tr>
+        <table class="table">        
+            <tr>
             <td>
-              <p class="text">
-                  Код программы:</br>
-                  Файл RandomMatrix.java.</br>
-import java.util.Random;</br>
-import java.util.Scanner;</br>
+                <p class="text2"> Код программы:</p>
+              <p class="text2"> Файл RandomMatrix.java.</p>
+    <p class="text2"> import java.util.Random;</p>
+    <p class="text2"> import java.util.Scanner;</p>
 
-public class RandomMatrix {</br>
-    public static void main(String[] args) {</br>
-        Scanner scanner = new Scanner(System.in);</br>
-        Random random = new Random();</br>
+    <p class="text2"> public class RandomMatrix {</br>
+    <p style="text-indent:40px" class="text2"> public static void main(String[] args) {</p>
+    <p style="text-indent:80px" class="text2"> Scanner scanner = new Scanner(System.in);</p>
+    <p style="text-indent:80px" class="text2"> Random random = new Random();</p>
 
-        System.out.print("Введите размерность матрицы n: ");</br>
-        int n = scanner.nextInt();</br>
+    <p style="text-indent:80px" class="text2"> System.out.print("Введите размерность матрицы n: ");</p>
+    
+    <p style="text-indent:80px"class="text2"> int n = scanner.nextInt();</p>
 
-        double[][] matrix = new double[n][n];</br>
+    <p style="text-indent:80px" class="text2"> double[][] matrix = new double[n][n]; </p>
 
-        System.out.println("Исходная матрица:");</br>
-        for (int i = 0; i < n; i++) { </br>
-            for (int j = 0; j < n; j++) { </br>
-                matrix[i][j] = -n + random.nextDouble() * (2 * n); </br>
-                System.out.print(String.format("%.2f", matrix[i][j]) + "\t"); </br>
-            } </br>
-            System.out.println(); </br> 
-        } </br>
+    <p style="text-indent:80px" class="text2"> System.out.println("Исходная матрица:");</p>
+    <p style="text-indent:80px" class="text2"> for (int i = 0; i < n; i++) { </p>
+    <p style="text-indent:120px" class="text2"> for (int j = 0; j < n; j++) { </p>
+    <p style="text-indent:160px" class="text2"> matrix[i][j] = -n + random.nextDouble() * (2 * n); </p>
+    <p style="text-indent:160px" class="text2"> System.out.print(String.format("%.2f", matrix[i][j]) + "\t"); </p>
+<p style="text-indent:120px" class="text2"> } </p> 
+<p style="text-indent:80px" class="text2"> System.out.println();</p>
+<p style="text-indent:80px" class="text2"> } </p> </br>
 
-        int[][] roundedMatrix = new int[n][n]; </br>
-        for (int i = 0; i < n; i++) { </br>
-            for (int j = 0; j < n; j++) { </br>
-                roundedMatrix[i][j] = (int) Math.round(matrix[i][j]); </br>
-            } </br>
-        } </br>
+<p style="text-indent:80px" class="text2"> int[][] roundedMatrix = new int[n][n];</p>
+<p style="text-indent:80px" class="text2"> for (int i = 0; i < n; i++) { </p>
+<p style="text-indent:120px" class="text2"> for (int j = 0; j < n; j++) { </p>
+<p style="text-indent:160px" class="text2"> roundedMatrix[i][j] = (int) Math.round(matrix[i][j]); </p>
+<p style="text-indent:120px" class="text2"> } </p>
+<p style="text-indent:80px"class="text2"> } </p></br>
 
-        System.out.println("Округленная матрица:"); </br>
+        System.out.println("Округленная матрица:");
         for (int i = 0; i < n; i++) { </br>
             for (int j = 0; j < n; j++) { </br>
                 System.out.print(roundedMatrix[i][j] + "\t"); </br>
@@ -51,18 +51,21 @@ public class RandomMatrix {</br>
         } </br>
 </br>
         scanner.close(); </br>
-    }</br>
+    } </br>
 } </br>
-
                 </p>
               
               </td>
           </tr>
-            
           <tr>
-            <td> <img src="C:\Users\LEGENDS PC\Desktop\Изображение"> </td> 
-          </tr>
-          
+              <td>
+                  <p class="text2"> Скриншот результата </p>
+                  <img class="img" src="https://github.com/newsadness/Task-number-1/blob/main/1.png?raw=true">
+            </td>
+
+
+
+</tr>
           <tr>
              <td> 
                  <a href="https://newsadness.github.io/1st-week/"> 
