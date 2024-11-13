@@ -11,48 +11,48 @@
           <tr>
             <td>
               <p class="text">
-                Код программы:
-Файл RandomMatrix.java.
-import java.util.Random;
-import java.util.Scanner;
+                Код программы: </br>
+                  Файл RandomMatrix.java.</br>
+import java.util.Random;</br>
+import java.util.Scanner;</br>
 
-public class RandomMatrix {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Random random = new Random();
+public class RandomMatrix {</br>
+    public static void main(String[] args) {</br>
+        Scanner scanner = new Scanner(System.in);</br>
+        Random random = new Random();</br>
 
-        System.out.print("Введите размерность матрицы n: ");
-        int n = scanner.nextInt();
+        System.out.print("Введите размерность матрицы n: ");</br>
+        int n = scanner.nextInt();</br>
 
-        double[][] matrix = new double[n][n];
+        double[][] matrix = new double[n][n];</br>
 
-        System.out.println("Исходная матрица:");
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                matrix[i][j] = -n + random.nextDouble() * (2 * n);
-                System.out.print(String.format("%.2f", matrix[i][j]) + "\t");
-            }
-            System.out.println();
-        }
+        System.out.println("Исходная матрица:");</br>
+        for (int i = 0; i < n; i++) { </br>
+            for (int j = 0; j < n; j++) { </br>
+                matrix[i][j] = -n + random.nextDouble() * (2 * n); </br>
+                System.out.print(String.format("%.2f", matrix[i][j]) + "\t"); </br>
+            } </br>
+            System.out.println(); </br> 
+        } </br>
 
-        int[][] roundedMatrix = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                roundedMatrix[i][j] = (int) Math.round(matrix[i][j]);
-            }
-        }
+        int[][] roundedMatrix = new int[n][n]; </br>
+        for (int i = 0; i < n; i++) { </br>
+            for (int j = 0; j < n; j++) { </br>
+                roundedMatrix[i][j] = (int) Math.round(matrix[i][j]); </br>
+            } </br>
+        } </br>
 
-        System.out.println("Округленная матрица:");
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                System.out.print(roundedMatrix[i][j] + "\t");
-            }
-            System.out.println();
-        }
-
-        scanner.close();
-    }
-}
+        System.out.println("Округленная матрица:"); </br>
+        for (int i = 0; i < n; i++) { </br>
+            for (int j = 0; j < n; j++) { </br>
+                System.out.print(roundedMatrix[i][j] + "\t"); </br>
+            } </br>
+            System.out.println(); </br>
+        } </br>
+</br>
+        scanner.close(); </br>
+    }</br>
+} </br>
 
                 </p>
               
