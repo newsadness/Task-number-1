@@ -21,12 +21,14 @@ margin-top: 50px;
 }
 
 .text2 {
-color: black;
-font-family: "Arial Black";
-font-size: 20px;
-width: 150px;
+color: #2f4f4f;
+width: auto;
 height: auto;
-margin: auto;   
+text-align: justify;
+padding: 10px;
+font-size: 28px;
+font-family: "Arial Black";
+  
     
 }
 
@@ -61,7 +63,7 @@ margin: auto;
 
 
 .table{
-    margin-top: 50px;
+   
     margin-left: 10%;
     
     
