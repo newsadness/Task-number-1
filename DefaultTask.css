@@ -4,9 +4,10 @@ width: auto;
 height: auto;
 text-align: justify;
 padding: 10px;
-font-size: 40px;
+font-size: 80px;
 font-family: "Arial Black";
 margin-top: 50px;
+margin-left: 25%;
     
 
     
@@ -60,7 +61,7 @@ font-family: "Arial Black";
 
 
 .table {
-    margin-left: 10%;
+    margin-left: 40%;
     text-align: center;
     
     
