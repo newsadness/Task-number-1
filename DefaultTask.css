@@ -1,0 +1,69 @@
+.text {
+color: #2f4f4f;
+width: auto;
+height: auto;
+text-align: justify;
+padding: 10px;
+font-size: 28px;
+font-family: "Arial Black";
+margin-top: 50px;
+    
+
+    
+
+}
+
+
+.default {
+    background-color:#dff5f2;
+    
+    
+}
+
+.text2 {
+color: black;
+font-family: "Arial Black";
+font-size: 20px;
+width: 150px;
+height: auto;
+margin: auto;   
+    
+}
+
+.space {
+    
+    height: 40px;
+
+}
+
+
+.img {
+    width: 180px;
+    height: 220px;
+    
+    
+    
+}
+
+
+.button {
+    color: #2f4f4f;
+    background-color:#87dfd6;
+    font-family: "Arial Black";
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 25px;
+    
+}
+
+
+
+.table{
+    margin-top: 200px;
+    margin-left: 10%;
+    
+    
+    
+}
